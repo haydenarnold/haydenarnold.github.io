@@ -10,6 +10,6 @@ venuelink: 'https://repository.arizona.edu/handle/10150/129649'
 paperurl: 'https://repository.arizona.edu/handle/10150/672830'
 arxivurl: 
 codeurl:
-citation: 'Hayden Arnold, Yotam Shmargad. <i>University of Arizona</i>, 2024'
+citation: '<b>Hayden Arnold</b>, Yotam Shmargad. <i>University of Arizona</i>, 2024'
 ---
 The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
