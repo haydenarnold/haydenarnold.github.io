@@ -27,7 +27,9 @@ $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
 a:hover {
-  color: #fbc02d !important;
+  color: #ffee58 !important;
+  transition: color 0.3s ease-in-out !important; 
+  text-decoration: none !important;
 }
 
 /* Default light theme for the site */
