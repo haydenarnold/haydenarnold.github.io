@@ -3,8 +3,8 @@ title: "Statistical Trends in Online Anti-Feminism and the 2022 South Korean Pre
 collection: publications
 category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
+excerpt: ''
+date: 2024-05-15
 venue: 'University of Arizona'
 venuelink: 'https://repository.arizona.edu/handle/10150/129649'
 paperurl: 'https://repository.arizona.edu/handle/10150/672830'
