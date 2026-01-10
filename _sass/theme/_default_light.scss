@@ -26,26 +26,18 @@ $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
-a:hover {
-  color: #fdd835 !important;
-  transition: color 0.3s ease-in-out !important; 
-  text-decoration: none !important;
-}
+.archive__item-buttons a:hover,
+.btn:hover,
+a.btn:hover {
+  text-decoration: none !important; 
+  border-bottom: none !important;
 
-.archive__item-buttons a:hover {
+  transition: color 0.3s ease-in-out !important; 
   
-  /* 1. Force Text to stay White (instead of turning yellow) */
-  color: #fff !important; 
-  
-  /* 2. Change the Background Color */
-  /* You can set this to your Yellow (#fdd835) or a Darker Teal (#26a69a) */
   background-color: #fdd835 !important; 
-
-  transition: color 0.3s ease-in-out !important; 
+  border-color: #fdd835 !important;
   
-  /* 3. Change the Border to match */
-  border-color: #fdd835 !important; 
-  text-decoration: none !important;
+  color: #fff !important; 
 }
 
 /* Default light theme for the site */
