@@ -26,6 +26,18 @@ $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
+h2.archive__item-title, 
+.archive__item-title {
+  text-decoration: none !important;
+  border-bottom: none !important; /* Removes fake border underlines */
+}
+
+h2.archive__item-title a:hover, 
+.archive__item-title a:hover {
+  text-decoration: none !important;
+  border-bottom: none !important; /* Removes fake border underlines */
+}
+
 .archive__item-buttons a:hover,
 .btn:hover,
 a.btn:hover {
