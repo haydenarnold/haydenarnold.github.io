@@ -1,20 +1,18 @@
 ---
-title: "Teaching experience 2"
+title: "Senior Undergraduate Teaching Assistant"
 collection: teaching
-type: "Workshop"
+type: "Undergraduate course"
 permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+venue: "University of Arizona Department of Computer Science"
+date: 2023-01-10
+location: "Tucson, AZ, USA"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+I served as a Senior Undergraduate Teaching Assistant (SUTA) for multiple semesters. My responsibilities included leading weekly lab sections, grading assignments, and holding office hours to assist students with debugging and conceptual questions.
 
-Heading 1
-======
+### Courses Taught:
 
-Heading 2
-======
+* **CSC 120: Introduction to Computer Programming II** (Spring and Fall 2023, Spring 2024)
+    * *Instructor:* Dr. Janalee O'Bagy
+    * Focus on object-oriented programming and data structures.
 
-Heading 3
-======
