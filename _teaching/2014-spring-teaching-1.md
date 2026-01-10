@@ -1,20 +1,21 @@
 ---
-title: "Teaching experience 1"
+title: "Undergraduate Teaching Assistant"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+venue: "University of Arizona Department of Computer Science"
+date: 2021-08-21
+location: "Tucson, AZ, USA"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+I served as an Undergraduate Teaching Assistant (UTA) for multiple semesters. My responsibilities included leading weekly lab sections, grading assignments, and holding office hours to assist students with debugging and conceptual questions.
 
-Heading 1
-======
+### Courses Taught:
 
-Heading 2
-======
+* **CSC 110: Introduction to Computer Programming I** (Fall 2021)
+    * *Instructors:* Prof. Benjamin Dicken
+    * Led two weekly lab sections of 25 students each; taught Python fundamentals.
 
-Heading 3
-======
+* **CSC 120: Introduction to Computer Programming II** (Spring, Summer, Fall 2022)
+    * *Instructor:* Prof. Russell Lewis
+    * Focus on object-oriented programming and data structures.
