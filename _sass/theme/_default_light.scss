@@ -26,6 +26,10 @@ $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
+a:hover {
+  color: #fbc02d !important;
+}
+
 /* Default light theme for the site */
 :root {
     --global-base-color                 : #{$primary-color};
