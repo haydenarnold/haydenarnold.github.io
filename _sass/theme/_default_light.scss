@@ -52,6 +52,19 @@ a.btn:hover {
   color: #fff !important; 
 }
 
+.archive__item a:hover,
+a:hover {
+  text-decoration: none !important; 
+  border-bottom: none !important;
+
+  transition: color 0.3s ease-in-out !important; 
+  
+  background-color: #fdd835 !important; 
+  border-color: #fdd835 !important;
+  
+  color: #fff !important; 
+}
+
 /* Default light theme for the site */
 :root {
     --global-base-color                 : #{$primary-color};
