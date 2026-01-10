@@ -2,7 +2,7 @@
     DEFAULT THEME - LIGHT VERSION
     ========================================================================== */
 /* Color codes used for the theme */
-$primary-color              : #20B2AA;
+$primary-color              : #00CED1;
 $gray                       : #7a8288;
 $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
@@ -43,7 +43,7 @@ $sidebar-screen-min-width   : 1024px;
     --global-link-color-hover           : #fbc02d; 
     --global-link-color-visited         : mix(#fff, #{$primary-color}, 20%);  
     
-    --global-masthead-link-color        : #{$dark-gray};
+    --global-masthead-link-color        : #000;
     --global-masthead-link-color-hover  : #000;    
 
     --global-text-color                 : #000; /* Pure black text */
