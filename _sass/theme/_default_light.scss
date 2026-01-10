@@ -40,11 +40,11 @@ a:hover {
   /* 2. Change the Background Color */
   /* You can set this to your Yellow (#fdd835) or a Darker Teal (#26a69a) */
   background-color: #fdd835 !important; 
+
+  transition: color 0.3s ease-in-out !important; 
   
   /* 3. Change the Border to match */
   border-color: #fdd835 !important; 
-  
-  /* Optional: Remove underline just in case */
   text-decoration: none !important;
 }
 
