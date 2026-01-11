@@ -26,7 +26,7 @@ $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
-. archive__item a:hover,
+.archive__item a:hover,
 a:hover {
   text-decoration: none !important; 
   border-bottom: none !important;
@@ -48,9 +48,9 @@ h2.archive__item-title a:hover,
 }
 
 /* BUTTON STYLES - Default state (not hovering) */
-.archive . archive__item-buttons a,
-. archive .btn,
-. archive a.btn,
+.archive .archive__item-buttons a,
+.archive .btn,
+.archive a.btn,
 .btn,
 a.btn {
   text-decoration: none !important; 
@@ -62,7 +62,7 @@ a.btn {
 .archive .archive__item-buttons a:hover,
 .archive .btn:hover,
 .archive a.btn:hover,
-. btn:hover,
+.btn:hover,
 a.btn:hover {
   text-decoration: none !important; 
   border-bottom: none !important;
