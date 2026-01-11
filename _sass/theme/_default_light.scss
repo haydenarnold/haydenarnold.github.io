@@ -26,6 +26,7 @@ $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
+
 .archive__item a:hover,
 a:hover {
   text-decoration: none !important; 
@@ -50,18 +51,25 @@ h2.archive__item-title a:hover,
   border-bottom: none !important; /* Removes fake border underlines */
 }
 
+.archive__item-buttons a,
+.btn,
+a.btn {
+  text-decoration: none !important; 
+  border-bottom: none ! important;
+  
+  transition: all 0.3s ease-in-out !important;
+}
+
 .archive__item-buttons a:hover,
 .btn:hover,
 a.btn:hover {
-  text-decoration: none !important; 
+  text-decoration: none ! important; 
   border-bottom: none !important;
-
-  transition: color 0.3s ease-in-out !important; 
   
   background-color: #fdd835 !important; 
-  border-color: #fdd835 !important;
+  border-color: #fdd835 ! important;
   
-  color: #fff !important; 
+  color:  #fff !important; 
 }
 
 /* Default light theme for the site */
