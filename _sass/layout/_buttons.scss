@@ -21,9 +21,11 @@
   border: 0 !important;
   border-radius: $border-radius;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
 
   &:hover {
     background-color: mix(white, #000, 20%);
+    text-decoration: none !important;
   }
 
   .icon {
