@@ -1,6 +1,6 @@
 {% include base_path %}
 
-{% if post.header.teaser %}
+{% if post.header. teaser %}
   {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
 {% else %}
   {% assign teaser = site.teaser %}
@@ -16,7 +16,11 @@
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     
     <h2 class="archive__item-title" itemprop="headline" style="color: #4db6ac; margin-bottom: 5px;">
-      {{ title }}
+      {% if post.link %}
+        <a href="{{ post.link }}">{{ title }}</a>
+      {% else %}
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+      {% endif %}
     </h2>
     
     <p class="archive__item-excerpt" itemprop="description" style="margin-top: 0; font-size: 0.9em; color: #000;">
@@ -28,7 +32,7 @@
         <br>
         <i>
           {% if post.venueurl %}
-            <a href="{{ post.venueurl }}" style="color: #4db6ac; text-decoration: none;">{{ post.venue }}</a>
+            <a href="{{ post.venueurl }}" style="color: #000; text-decoration: none;">{{ post.venue }}</a>
           {% else %}
             <span style="color: #000;">{{ post.venue }}</span>
           {% endif %}
@@ -37,16 +41,16 @@
           {% endif %}
         </i>
       {% endif %}
-
+      
       {% if post.courses %}
         <br>
-        <strong>Courses: </strong> {{ post.courses }}
+        <strong>Courses:  </strong> {{ post.courses }}
       {% endif %}
     </p>
 
     <div class="archive__item-buttons">
       {% if post.paperurl %}
-        <a href="{{ post.paperurl }}" class="btn btn--info" style="color: #fff; background-color: #4db6ac; border-color: #4db6ac;">Paper</a>
+        <a href="{{ post.paperurl }}" class="btn btn--info" style="color: #fff; background-color:  #4db6ac; border-color: #4db6ac;">Paper</a>
       {% endif %}
       
       {% if post.arxivurl %}
