@@ -12,7 +12,7 @@ My name is Hayden, and I'm a second-year Master's student at KAIST's [School of 
 ## Selected Publications
 
 {% assign sorted_publications = site.publications | sort: 'date' | reverse %}
-{% for post in site.sorted_publications %}
+{% for post in sorted_publications %}
   {% if post.featured %}
     {% include archive-single.html %}
   {% endif %}
