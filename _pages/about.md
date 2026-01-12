@@ -11,9 +11,9 @@ My name is Hayden, and I'm a second-year Master's student at KAIST's [School of 
 
 ## Selected Publications
 
-{% for pub_file in site.publications %}
-  {% if pub_file.path contains "ICWSM2025.md" or pub_file.path contains "UndergraduateThesis.md" %}
-    {% include archive-single.html post=pub_file %}
+{% for post in site.publications %}
+  {% if post.featured %}
+    {% include archive-single.html %}
   {% endif %}
 {% endfor %}
 
