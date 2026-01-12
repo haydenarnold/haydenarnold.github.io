@@ -1,5 +1,6 @@
 ---
 title: "Measuring and Forecasting Conversation Incivility: the Role of Antisocial and Prosocial Behaviors"
+featured: true
 collection: publications
 category: conferences
 permalink: /publication/2010-10-01-paper-title-number-2
