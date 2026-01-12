@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-My name is Hayden, and I'm a second-year Master's student at KAIST's School of Digital Humanities and Computational Social Sciences, where I'm advised by Prof. Taegyoon Kim.
+My name is Hayden, and I'm a second-year Master's student at KAIST's [School of Digital Humanities and Computational Social Sciences](https://ghss.kaist.ac.kr/), where I'm advised by Prof. [Taegyoon Kim](https://taegyoon-kim.github.io/).
 
 ## Selected Publications
 
