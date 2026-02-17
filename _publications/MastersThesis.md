@@ -3,7 +3,7 @@ title: "How Does Toxicity Emerge in Political Livestreams? Large-Scale Evidence 
 featured: true
 collection: publications
 category: manuscripts
-permalink: /publication/2010-10-01-paper-title-number-2
+permalink: /publication/2010-10-01-paper-title-number-3
 excerpt: ''
 date: 2026-02-15
 venue: 'Political Communication (under review)'
