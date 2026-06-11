@@ -2,7 +2,7 @@
 title: "Large Language Models are Not Always Faithful in Explaining Their Political Decision Making"
 featured: true
 collection: publications
-category: manuscripts
+category: conferences
 permalink: /publication/EMNLP2026
 excerpt: ''
 date: 2026-01-01
