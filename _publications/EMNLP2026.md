@@ -9,7 +9,7 @@ date: 2026-01-01
 venue: 'EMNLP 2026 (under review)'
 slidesurl: ''
 paperurl: ''
-citation: '<b>Hayden Arnold</b>, Q.M. Nguyen, Taegyoon Kim'
+citation: '<b>Hayden Arnold</b>, Quang Minh Nguyen, Taegyoon Kim'
 ---
 
 * Extends the concept of faithfulness from alignment research to the political decision-making context
