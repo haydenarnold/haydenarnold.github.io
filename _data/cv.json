@@ -66,32 +66,25 @@
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Measuring and Forecasting Conversation Incivility: the Role of Antisocial and Prosocial Behaviors",
+      "publisher": "International AAAI Conference on Web & Social Media (ICWSM)",
+      "releaseDate": "2025-06-07",
+      "website": "https://ojs.aaai.org/index.php/ICWSM/article/view/35926",
+      "summary": "Xinchen Yu, Hayden Arnold, Benjamin Su, Eduardo Blanco"
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "How Does Toxicity Emerge in Political Livestreams? Large-Scale Evidence from Twitch",
+      "publisher": "Political Communication (under review)",
+      "releaseDate": "2026-02-15",
+      "website": "",
+      "summary": "Hayden Arnold, Sangyeon Kim, Taegyoon Kim"
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Statistical Trends in Online Anti-Feminism and the 2022 South Korean Presidential Election",
+      "publisher": "University of Arizona",
+      "releaseDate": "2024-05-15",
+      "website": "https://repository.arizona.edu/handle/10150/672830",
+      "summary": "Hayden Arnold, Yotam Shmargad"
     }
   ],
   "presentations": [
