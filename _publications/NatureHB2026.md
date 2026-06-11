@@ -9,7 +9,7 @@ date: 2026-01-02
 venue: 'Nature Human Behavior (under review)'
 slidesurl: ''
 paperurl: ''
-citation: '<b>Hayden Arnold</b>, Joohee Choi, Taegyoon Kim, Jeongwoo Jang'
+citation: '<b>Hayden Arnold</b>*, Joohee Choi*, Taegyoon Kim, Jeongwoo Jang <br><small>* equal contribution</small>'
 ---
 
 * Analyzed 1.6M Reddit discussions to quantify evidence- vs intuition-based persuasion signals
