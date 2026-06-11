@@ -5,6 +5,7 @@ type: "Undergraduate course"
 permalink: /teaching/KaistTA
 venue: "Korea Advanced Institute of Science and Technology (KAIST)"
 date: 2024-09-01
+date_label: "Fall 2024, Fall 2025"
 location: "Daejeon, South Korea"
 courses: "Digital Media and Democracy"
 ---

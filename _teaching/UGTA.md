@@ -4,12 +4,13 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/UGTA
 venue: "University of Arizona Department of Computer Science"
-date: 2021-08-21
+date: 2021-08-01
+date_label: "August 2021 – December 2022"
 location: "Tucson, AZ, USA"
 courses: "Introduction to Computer Programming I, Introduction to Computer Programming II"
 ---
 
-I served as an Undergraduate Teaching Assistant (UGTA) for multiple semesters. My responsibilities included leading weekly lab sections, grading assignments, and holding office hours to assist students with debugging and conceptual questions.
+I served as an Undergraduate Teaching Assistant (UGTA) for multiple semesters. My responsibilities included leading weekly lab sections, grading assignments, and holding office hours to assist students.
 
 ### Courses Taught:
 

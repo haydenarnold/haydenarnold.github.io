@@ -5,15 +5,15 @@ type: "Undergraduate course"
 permalink: /teaching/SUGTA
 venue: "University of Arizona Department of Computer Science"
 date: 2023-01-10
+date_label: "January 2023 – May 2024"
 location: "Tucson, AZ, USA"
 courses: "Introduction to Computer Programming II"
 ---
 
-I served as a Senior Undergraduate Teaching Assistant (SUGTA) for multiple semesters. My responsibilities included leading weekly lab sections, grading assignments, and holding office hours to assist students with debugging and conceptual questions.
+I served as a Senior Undergraduate Teaching Assistant (SUGTA) for multiple semesters. My responsibilities included leading weekly lab sections, grading assignments, and holding office hours to assist students.
 
 ### Courses Taught:
 
 * **CSC 120: Introduction to Computer Programming II** (Spring and Fall 2023, Spring 2024)
     * *Instructor:* Dr. Janalee O'Bagy
     * Focus on object-oriented programming and data structures.
-
