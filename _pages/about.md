@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a predoctoral researcher at KAIST's [Center for Digital Humanities and Computational Social Sciences](https://dhcss.kaist.ac.kr/), having recently graduated from KAIST's [School of Digital Humanities and Computational Social Sciences](https://ghss.kaist.ac.kr/), where I was advised by Prof. [Taegyoon Kim](https://taegyoon-kim.github.io/). I previously graduated with dual degrees from the University of Arizona in [Computer Science](https://www.cs.arizona.edu/) and [Political Science](https://sgpp.arizona.edu/) with a concentration in Foreign Affairs, where I was advised by Prof. [Yotam Shmargad](https://www.yotamshmargad.com/).
+I am a predoctoral researcher at KAIST's [Center for Digital Humanities and Computational Social Sciences](https://dhcss.kaist.ac.kr/), having recently graduated with a Master of Science in Computational Social Science from the [School of Digital Humanities and Computational Social Sciences](https://ghss.kaist.ac.kr/), where I was advised by Prof. [Taegyoon Kim](https://taegyoon-kim.github.io/). I previously graduated with dual degrees from the University of Arizona in [Computer Science](https://www.cs.arizona.edu/) and [Political Science](https://sgpp.arizona.edu/) with a concentration in Foreign Affairs, where I was advised by Prof. [Yotam Shmargad](https://www.yotamshmargad.com/).
 
 ## Selected Publications
 
