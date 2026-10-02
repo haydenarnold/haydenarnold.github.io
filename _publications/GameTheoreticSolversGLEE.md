@@ -6,7 +6,7 @@ category: manuscripts
 permalink: /publication/GameTheoreticSolversGLEE
 excerpt: ''
 date: 2026-10-02
-venue: '1st Workshop on Interactive Agent Behavior (IAB) @ NeurIPS 2026 (under review)'
+venue: '1st Workshop on Interactive Agent Behavior (IAB) @ NeurIPS 2026'
 slidesurl: ''
 paperurl: ''
 citation: '<b>Hayden Arnold</b>'
