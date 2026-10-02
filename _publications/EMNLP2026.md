@@ -6,7 +6,7 @@ category: conferences
 permalink: /publication/EMNLP2026
 excerpt: ''
 date: 2026-01-01
-venue: 'EMNLP 2026 (under review)'
+venue: 'NAACL 2026 (under review)'
 slidesurl: ''
 paperurl: ''
 citation: 'Quang Minh Nguyen*, <b>Hayden Arnold</b>*, Taegyoon Kim <br><small>* equal contribution</small>'

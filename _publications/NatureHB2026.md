@@ -6,7 +6,7 @@ category: manuscripts
 permalink: /publication/NatureHB2026
 excerpt: ''
 date: 2026-01-02
-venue: 'Nature Human Behavior (under review)'
+venue: 'Scientific Reports (under review)'
 slidesurl: ''
 paperurl: ''
 citation: 'Joohee Choi*, <b>Hayden Arnold</b>*, Taegyoon Kim, Jeongwoo Jang <br><small>* equal contribution</small>'

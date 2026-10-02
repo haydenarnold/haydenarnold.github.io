@@ -43,10 +43,25 @@ Skills
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
+## Selected Publications
+
+{% assign selected_publications = site.publications | sort: 'date' | reverse %}
+{% for post in selected_publications %}
+  {% unless post.venue contains 'under review' %}
+    {% if post.featured %}
+      {% include archive-single-cv.html %}
+    {% endif %}
+  {% endunless %}
+{% endfor %}
+
+## Working Publications
+
+{% for post in selected_publications %}
+  {% if post.venue contains 'under review' %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
+  {% endif %}
+{% endfor %}
+
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
