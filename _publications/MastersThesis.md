@@ -6,7 +6,7 @@ category: manuscripts
 permalink: /publication/2010-10-01-paper-title-number-3
 excerpt: ''
 date: 2026-02-15
-venue: 'Political Communication (under review)'
+venue: 'Journal of Communication (under review)'
 slidesurl: ''
 paperurl: ''
 citation: '<b>Hayden Arnold</b>, Sangyeon Kim, Taegyoon Kim'
