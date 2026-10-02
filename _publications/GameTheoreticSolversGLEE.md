@@ -6,6 +6,7 @@ category: conferences
 permalink: /publication/GameTheoreticSolversGLEE
 excerpt: ''
 date: 2026-10-02
+hide_year: true
 venue: '1st Workshop on Interactive Agent Behavior (IAB) @ NeurIPS'
 slidesurl: ''
 paperurl: ''
