@@ -43,10 +43,10 @@ Skills
 
 Publications
 ======
-## Selected Publications
+<h2 class="publication-section-heading">Publications</h2>
 
-{% assign selected_publications = site.publications | sort: 'date' | reverse %}
-{% for post in selected_publications %}
+{% assign sorted_publications = site.publications | sort: 'date' | reverse %}
+{% for post in sorted_publications %}
   {% unless post.venue contains 'under review' %}
     {% if post.featured %}
       {% include archive-single-cv.html %}
@@ -54,9 +54,9 @@ Publications
   {% endunless %}
 {% endfor %}
 
-## Working Publications
+<h2 class="publication-section-heading">Publications in Review</h2>
 
-{% for post in selected_publications %}
+{% for post in sorted_publications %}
   {% if post.venue contains 'under review' %}
     {% include archive-single-cv.html %}
   {% endif %}
