@@ -2,7 +2,7 @@
 title: "Game-Theoretic Solvers with Bayesian Opponent Modeling and Moral Rhetoric Framing for GLEE"
 featured: true
 collection: publications
-category: manuscripts
+category: conferences
 permalink: /publication/GameTheoreticSolversGLEE
 excerpt: ''
 date: 2026-10-02
