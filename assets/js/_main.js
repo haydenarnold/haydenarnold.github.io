@@ -1,1 +1,79 @@
-/* ==========================================================================\n   Plotly integration script so that Markdown codeblocks will be rendered\n   ========================================================================== */\n\n// Read the Plotly data from the code block, hide it, and render the chart as new node.\nimport { plotlyLightLayout } from './theme.js';\nlet plotlyElements = document.querySelectorAll("pre>code.language-plotly");\nif (plotlyElements.length > 0) {\n  document.addEventListener("readystatechange", () => {\n    if (document.readyState === "complete") {\n      plotlyElements.forEach((elem) => {\n        // Parse the Plotly JSON data and hide it\n        var jsonData = JSON.parse(elem.textContent);\n        elem.parentElement.classList.add("hidden");\n\n        // Add the Plotly node\n        let chartElement = document.createElement("div");\n        elem.parentElement.after(chartElement);\n\n        // Always use light theme for plots\n        if (jsonData.layout) {\n          jsonData.layout.template = (jsonData.layout.template) ? { ...plotlyLightLayout, ...jsonData.layout.template } : plotlyLightLayout;\n        } else {\n          jsonData.layout = { template: plotlyLightLayout };\n        }\n        Plotly.react(chartElement, jsonData.data, jsonData.layout);\n      });\n    }\n  });\n}\n\n/* ==========================================================================\n   Actions that should occur when the page has been fully loaded\n   ========================================================================== */\n\n$(document).ready(function () {\n  // SCSS SETTINGS - These should be the same as the settings in the relevant files \n  const scssLarge = 925;          // pixels, from /_sass/_themes.scss\n  const scssMastheadHeight = 70;  // pixels, from the current theme (e.g., /_sass/theme/_default.scss)\n\n  // Enable the sticky footer\n  var bumpIt = function () {\n    $("body").css("padding-bottom", "0");\n    $("body").css("margin-bottom", $(".page__footer").outerHeight(true));\n  }\n  $(window).resize(function () {\n    didResize = true;\n  });\n  setInterval(function () {\n    if (didResize) {\n      didResize = false;\n      bumpIt();\n    }}, 250);\n  var didResize = false;\n  bumpIt();\n\n  // FitVids init\n  fitvids();\n\n  // Follow menu drop down\n  $(".author__urls-wrapper button").on("click", function () {\n    $(".author__urls").fadeToggle("fast", function () { });\n    $(".author__urls-wrapper button").toggleClass("open");\n  });\n\n  // Restore the follow menu if toggled on a window resize\n  jQuery(window).on('resize', function () {\n    if ($('.author__urls.social-icons').css('display') == 'none' && $(window).width() >= scssLarge) {\n      $(".author__urls").css('display', 'block')\n    }\n  });\n\n  // Init smooth scroll, this needs to be slightly more than then fixed masthead height\n  $("a").smoothScroll({\n    offset: -scssMastheadHeight,\n    preventDefault: false,\n  });\n\n});\n
+/* ==========================================================================
+   Plotly integration script so that Markdown codeblocks will be rendered
+   ========================================================================== */
+
+// Read the Plotly data from the code block, hide it, and render the chart as new node.
+import { plotlyLightLayout } from './theme.js';
+let plotlyElements = document.querySelectorAll("pre>code.language-plotly");
+if (plotlyElements.length > 0) {
+  document.addEventListener("readystatechange", () => {
+    if (document.readyState === "complete") {
+      plotlyElements.forEach((elem) => {
+        // Parse the Plotly JSON data and hide it
+        var jsonData = JSON.parse(elem.textContent);
+        elem.parentElement.classList.add("hidden");
+
+        // Add the Plotly node
+        let chartElement = document.createElement("div");
+        elem.parentElement.after(chartElement);
+
+        // Always use light theme for plots
+        if (jsonData.layout) {
+          jsonData.layout.template = (jsonData.layout.template) ? { ...plotlyLightLayout, ...jsonData.layout.template } : plotlyLightLayout;
+        } else {
+          jsonData.layout = { template: plotlyLightLayout };
+        }
+        Plotly.react(chartElement, jsonData.data, jsonData.layout);
+      });
+    }
+  });
+}
+
+/* ==========================================================================
+   Actions that should occur when the page has been fully loaded
+   ========================================================================== */
+
+$(document).ready(function () {
+  // SCSS SETTINGS - These should be the same as the settings in the relevant files 
+  const scssLarge = 925;          // pixels, from /_sass/_themes.scss
+  const scssMastheadHeight = 70;  // pixels, from the current theme (e.g., /_sass/theme/_default.scss)
+
+  // Enable the sticky footer
+  var bumpIt = function () {
+    $("body").css("padding-bottom", "0");
+    $("body").css("margin-bottom", $(".page__footer").outerHeight(true));
+  }
+  $(window).resize(function () {
+    didResize = true;
+  });
+  setInterval(function () {
+    if (didResize) {
+      didResize = false;
+      bumpIt();
+    }}, 250);
+  var didResize = false;
+  bumpIt();
+
+  // FitVids init
+  fitvids();
+
+  // Follow menu drop down
+  $(".author__urls-wrapper button").on("click", function () {
+    $(".author__urls").fadeToggle("fast", function () { });
+    $(".author__urls-wrapper button").toggleClass("open");
+  });
+
+  // Restore the follow menu if toggled on a window resize
+  jQuery(window).on('resize', function () {
+    if ($('.author__urls.social-icons').css('display') == 'none' && $(window).width() >= scssLarge) {
+      $(".author__urls").css('display', 'block')
+    }
+  });
+
+  // Init smooth scroll, this needs to be slightly more than then fixed masthead height
+  $("a").smoothScroll({
+    offset: -scssMastheadHeight,
+    preventDefault: false,
+  });
+
+});
