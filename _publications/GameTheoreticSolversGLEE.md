@@ -9,7 +9,7 @@ date: 2026-10-02
 hide_year: true
 venue: '1st Workshop on Interactive Agent Behavior (IAB) @ NeurIPS'
 slidesurl: ''
-paperurl: ''
+paperurl: 'https://arxiv.org/abs/2610.37397'
 citation: '<b>Hayden Arnold</b>'
 ---
 
